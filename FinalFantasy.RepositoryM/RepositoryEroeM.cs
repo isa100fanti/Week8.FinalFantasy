@@ -12,21 +12,35 @@ namespace FinalFantasy.RepositoryM
     {
         public int Attacco(Arma arma, int puntivita)
         {
-            return 0;
+            int attacco = 0;
+            Arma a = new Arma();
+            attacco = puntivita - a.PuntiDanno;
+            return attacco;
         }
 
-        
+        public ICollection<Eroe> Eroi = new List<Eroe>()
+        {
+            new Eroe { Id = 1, PuntiEsp =20, Arma = {NomeArma = "Spada"}, idGiocatore = 1, Tipo = Eroe.TipoEroe.Soldier } 
+        };
 
         public bool CreaEroe(Eroe eroe)
         {
-            throw new NotImplementedException();
+            if (eroe != null)
+            {
+                Eroi.Add(eroe);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
      
 
         public void Fuga()
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

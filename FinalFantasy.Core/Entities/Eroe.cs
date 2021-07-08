@@ -33,6 +33,7 @@ namespace FinalFantasy.Core.Entities
             } }
         public int Id { get; set; }
         public int PuntiEsp { get; set; }
+        public TipoEroe Tipo { get; set; }
         public Arma Arma { get; set; }  //nav property
         public int IdArma { get; set; } //FK
         public Giocatore Giocatore { get; set; }
