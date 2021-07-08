@@ -1,0 +1,15 @@
+C:\Users\isabella.centofanti\Downloads\Prova\Prova\FinalFantasy\FinalFantasy.RepositoryM\bin\Debug\net5.0\FinalFantasy.RepositoryM.deps.json
+C:\Users\isabella.centofanti\Downloads\Prova\Prova\FinalFantasy\FinalFantasy.RepositoryM\bin\Debug\net5.0\FinalFantasy.RepositoryM.dll
+C:\Users\isabella.centofanti\Downloads\Prova\Prova\FinalFantasy\FinalFantasy.RepositoryM\bin\Debug\net5.0\ref\FinalFantasy.RepositoryM.dll
+C:\Users\isabella.centofanti\Downloads\Prova\Prova\FinalFantasy\FinalFantasy.RepositoryM\bin\Debug\net5.0\FinalFantasy.RepositoryM.pdb
+C:\Users\isabella.centofanti\Downloads\Prova\Prova\FinalFantasy\FinalFantasy.RepositoryM\bin\Debug\net5.0\FinalFantasy.Core.dll
+C:\Users\isabella.centofanti\Downloads\Prova\Prova\FinalFantasy\FinalFantasy.RepositoryM\bin\Debug\net5.0\FinalFantasy.Core.pdb
+C:\Users\isabella.centofanti\Downloads\Prova\Prova\FinalFantasy\FinalFantasy.RepositoryM\obj\Debug\net5.0\FinalFantasy.RepositoryM.csprojAssemblyReference.cache
+C:\Users\isabella.centofanti\Downloads\Prova\Prova\FinalFantasy\FinalFantasy.RepositoryM\obj\Debug\net5.0\FinalFantasy.RepositoryM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isabella.centofanti\Downloads\Prova\Prova\FinalFantasy\FinalFantasy.RepositoryM\obj\Debug\net5.0\FinalFantasy.RepositoryM.AssemblyInfoInputs.cache
+C:\Users\isabella.centofanti\Downloads\Prova\Prova\FinalFantasy\FinalFantasy.RepositoryM\obj\Debug\net5.0\FinalFantasy.RepositoryM.AssemblyInfo.cs
+C:\Users\isabella.centofanti\Downloads\Prova\Prova\FinalFantasy\FinalFantasy.RepositoryM\obj\Debug\net5.0\FinalFantasy.RepositoryM.csproj.CoreCompileInputs.cache
+C:\Users\isabella.centofanti\Downloads\Prova\Prova\FinalFantasy\FinalFantasy.RepositoryM\obj\Debug\net5.0\FinalFantasy.RepositoryM.csproj.CopyComplete
+C:\Users\isabella.centofanti\Downloads\Prova\Prova\FinalFantasy\FinalFantasy.RepositoryM\obj\Debug\net5.0\FinalFantasy.RepositoryM.dll
+C:\Users\isabella.centofanti\Downloads\Prova\Prova\FinalFantasy\FinalFantasy.RepositoryM\obj\Debug\net5.0\ref\FinalFantasy.RepositoryM.dll
+C:\Users\isabella.centofanti\Downloads\Prova\Prova\FinalFantasy\FinalFantasy.RepositoryM\obj\Debug\net5.0\FinalFantasy.RepositoryM.pdb

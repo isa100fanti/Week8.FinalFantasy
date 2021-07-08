@@ -1,0 +1,4 @@
+C:\Users\isabella.centofanti\Downloads\Prova\Prova\FinalFantasy\FinalFantasy.ReporitoryEF\obj\Debug\net5.0\FinalFantasy.RepositoryMock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isabella.centofanti\Downloads\Prova\Prova\FinalFantasy\FinalFantasy.ReporitoryEF\obj\Debug\net5.0\FinalFantasy.RepositoryMock.AssemblyInfoInputs.cache
+C:\Users\isabella.centofanti\Downloads\Prova\Prova\FinalFantasy\FinalFantasy.ReporitoryEF\obj\Debug\net5.0\FinalFantasy.RepositoryMock.AssemblyInfo.cs
+C:\Users\isabella.centofanti\Downloads\Prova\Prova\FinalFantasy\FinalFantasy.ReporitoryEF\obj\Debug\net5.0\FinalFantasy.RepositoryMock.csproj.CoreCompileInputs.cache

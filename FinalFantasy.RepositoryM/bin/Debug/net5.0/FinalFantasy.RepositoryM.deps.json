@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "FinalFantasy.RepositoryM/1.0.0": {
+        "dependencies": {
+          "FinalFantasy.Core": "1.0.0"
+        },
+        "runtime": {
+          "FinalFantasy.RepositoryM.dll": {}
+        }
+      },
+      "FinalFantasy.Core/1.0.0": {
+        "runtime": {
+          "FinalFantasy.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FinalFantasy.RepositoryM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FinalFantasy.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
