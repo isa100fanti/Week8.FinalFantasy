@@ -12,12 +12,38 @@ namespace FinalFantasy.RepositoryEF.RepositoryEF
     {
         public Hero ChooseHero(int id)
         {
-            throw new NotImplementedException();
+            using (var ctx = new ContextFinalFantasy())
+            {
+                
+                    if (id != null)
+                    {
+
+                        return ctx.Heroes.Find(id);
+                    }
+                
+             }
         }
 
         public bool CreateHero(Hero eroe)
         {
-            throw new NotImplementedException();
+            bool esito = false;
+            using (var ctx = new ContextFinalFantasy())
+            {
+                try
+                {
+                    if (eroe == null)
+                    {
+                        ctx.Entry<Hero>(eroe).State = Microsoft.EntityFrameworkCore.EntityState.Added;
+                        ctx.SaveChanges();
+                        esito = true;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    return esito;
+                }
+            }
+            return esito;
         }
 
         public bool Delete(int id)
@@ -62,6 +88,8 @@ namespace FinalFantasy.RepositoryEF.RepositoryEF
                     return result;
                 }
             }
+            
+            
             
            
         }

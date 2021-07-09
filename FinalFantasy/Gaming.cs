@@ -52,7 +52,7 @@ namespace FinalFantasy
         {
             //ALL'INTERNO DI QUESTO MENU VADO A GESTIRE LE OPERAZIONI
             //INIZIALE DI CREAZIONE PARTITA
-
+            Hero h = new Hero();
             //un utente può avere + eroi
             //sulla base della scelta gli mostri le armi corrispondenti(gia presenti nel mock o db)
             Console.WriteLine("1. Gioca");
@@ -65,6 +65,7 @@ namespace FinalFantasy
                 case 1:
                     break;
                 case 2:
+                    repoHero.CreateHero(h);
                     break;
                 case 3:
                     break;
