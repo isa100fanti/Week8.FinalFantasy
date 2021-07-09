@@ -10,10 +10,10 @@ namespace FinalFantasy.RepositoryEF
 {
     public class ContextFinalFantasy : DbContext
     {
-        public DbSet<Eroe> Eroi { get; set; }
-        public DbSet<Mostro> Mostri { get; set; }
-        public DbSet<Giocatore> Giocatori { get; set; }
-        public DbSet<Arma> Armi { get; set; }
+        public DbSet<Hero> Heroes { get; set; }
+        public DbSet<Monster> Monsters { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Weapon> Weapons { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optBuilder)
         {
@@ -23,10 +23,10 @@ namespace FinalFantasy.RepositoryEF
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfiguration<Eroe>(new ConfigurationEroe());
-            modelBuilder.ApplyConfiguration<Arma>(new ConfigurationArma());
-            modelBuilder.ApplyConfiguration<Giocatore>(new ConfigurationGiocatore());
-            modelBuilder.ApplyConfiguration<Mostro>(new ConfigurationMostro());
+            modelBuilder.ApplyConfiguration<Hero>(new ConfigurationHero());
+            modelBuilder.ApplyConfiguration<Weapon>(new ConfigurationWeapon());
+            modelBuilder.ApplyConfiguration<User>(new ConfigurationUser());
+            modelBuilder.ApplyConfiguration<Monster>(new ConfigurationMonster());
         }
     }
 }

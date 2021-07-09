@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FinalFantasy.Core.Repository;
+using System;
 
 namespace FinalFantasy
 {
@@ -6,6 +7,11 @@ namespace FinalFantasy
     {
         static void Main(string[] args)
         {
+
+            //IRepositoryWeapon repoW = new RepositoryWeaponM();
+            //Console.WriteLine(repoW.GetWeaponsByClass("Hero"));
+
+
             Console.WriteLine("scegli dal menu cosa vuoi fare");
             bool avanti = true;
             while(avanti)

@@ -6,8 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FinalFantasy.Core\FinalFantasy.Core.csproj" />
-    <ProjectReference Include="..\FinalFantasy.RepositoryM\FinalFantasy.RepositoryM.csproj" />
+    <ProjectReference Include="..\FinalFantasy.RepositoryEF\FinalFantasy.RepositoryEF.csproj" />
   </ItemGroup>
 
 </Project>

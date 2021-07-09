@@ -21,8 +21,4 @@
     <ProjectReference Include="..\FinalFantasy.Core\FinalFantasy.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="RepositoryEF\" />
-  </ItemGroup>
-
 </Project>

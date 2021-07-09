@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FinalFantasy.RepositoryM\FinalFantasy.RepositoryM.csproj" />
+    <ProjectReference Include="..\FinalFantasy\FinalFantasy.csproj" />
   </ItemGroup>
 
 </Project>
