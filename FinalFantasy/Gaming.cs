@@ -68,10 +68,12 @@ namespace FinalFantasy
                     repoHero.CreateHero(h);
                     break;
                 case 3:
+                    int id = int.Parse(Console.ReadLine());
+                    repoHero.ChooseHero(id);
                     break;
                 case 4:
-                    int id = Convert.ToInt32(Console.ReadLine());
-                    repoHero.Delete(id);
+                    int id1 = Convert.ToInt32(Console.ReadLine());
+                    repoHero.Delete(id1);
                     break;
 
             }
