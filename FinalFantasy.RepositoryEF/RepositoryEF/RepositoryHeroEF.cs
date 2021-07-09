@@ -18,8 +18,12 @@ namespace FinalFantasy.RepositoryEF.RepositoryEF
                     if (id != null)
                     {
 
-                        return ctx.Heroes.Find(id);
+                    return ctx.Heroes.FirstOrDefault(e => e.ID == id);
                     }
+                else
+                {
+                    return null;
+                }
                 
              }
         }
